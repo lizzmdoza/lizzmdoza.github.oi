@@ -1,0 +1,109 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header h1{
+  height: 200px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  font-size: 72px;
+}
+footer h6{
+  height: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+#navegacion{
+}
+#navegacion li{
+    height: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    color: #01212F;
+    font-size: 18px;
+    vertical-align: middle;
+    background-color: #F8CDE0;
+	border-radius: 15px;
+}
+	#navegacion li a:link{
+    color: #A74E4C;
+    font-size: 18px;
+    text-decoration: none;
+	}
+#navegacion li a:hover {
+    color: #A74E4C;
+    text-decoration: underline;
+    width: 100px;
+    height: 30px;
+}
+#navegacion li a {
+    border-radius: 10px;
+    border-color: #2A8A4A;
+}
+</style>	
+</head>
+
+<body>
+<header>
+  <h1>AUDIO EN HTML</h1>
+&nbsp;</header>
+
+<nav>
+	<ul id="navegacion">
+		<li><a href="formatos_texto.html">Formatos de texto</a></li>
+		<li><a href="listas.html">Listas</a></li>
+		<li><a href="tablas.html">Tablas</a></li>
+		<li><a href="enlaces.html">Enlaces</a></li>
+		<li><a href="imagenes.html">Imagenes</a></li>
+		<li><a href="video.html">Video</a></li>
+		<li><a href="audio.html">Audio</a></li>
+		<li><a href="formularios.html">Formularios</a></li>
+  	</ul>
+</nav>
+<main>
+  <section>
+    <h2>Audio desde codificación de html</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cumque dignissimos delectus aliquid ab, repudiandae dolor soluta, eos quis quam eius perferendis consectetur illo asperiores quia eligendi ducimus voluptate similique!</p>
+	<audio controls>
+		<source src="../medios/audios/Read All Over - Nathan Moore.mp3" type="audio/mp3">
+		Tu navegador no es compatible con el formato audio mp3
+	</audio>
+    &nbsp;</section>
+  <section>
+    <h2>Audio desde Dreamweaver con muted y autoplay</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cumque dignissimos delectus aliquid ab, repudiandae dolor soluta, eos quis quam eius perferendis consectetur illo asperiores quia eligendi ducimus voluptate similique!</p>
+    <audio controls="controls" muted="muted" autoplay="autoplay" >
+      <source src="../medios/audios/Lament Of The Ancients - Asher Fulero.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Audio con reproducción ciclica (loop)</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cumque dignissimos delectus aliquid ab, repudiandae dolor soluta, eos quis quam eius perferendis consectetur illo asperiores quia eligendi ducimus voluptate similique!</p>
+    <audio controls="controls" autoplay="autoplay" loop="loop" >
+      <source src="../medios/audios/Wooden Bat Dropped On Asphalt.mp3" type="audio/mp3">
+    </audio>
+  &nbsp;</section>
+  <section>
+    <h2>Este es el contenido de la etiqueta H2 de diseño</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde cumque dignissimos delectus aliquid ab, repudiandae dolor soluta, eos quis quam eius perferendis consectetur illo asperiores quia eligendi ducimus voluptate similique!</p>
+	<iframe id='audio_41039645' frameborder='0' allowfullscreen='' scrolling='no' height='200' style='width:90%;' src='https://www.ivoox.com/player_ej_41039645_6_1.html' loading='lazy'></iframe>
+  &nbsp;</section>
+  &nbsp;</main>
+<footer>
+  <h6>Elaborado por Elizabeth Jimenez Mendoza</h6>
+  &nbsp;</footer>
+</body>
+</html>

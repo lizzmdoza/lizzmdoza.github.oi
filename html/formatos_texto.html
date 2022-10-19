@@ -1,0 +1,177 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Formatos de texto</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		p{
+			/*color:blue;*/
+		}
+		h6{
+			color:hotpink;
+		}
+		header{
+			height: 150px;
+			background-color:#220D50;
+			color:white;
+		}
+		h1{
+			height: 100px;
+			margin top: 0px;
+			text-align: center;
+			padding-top: 50px;
+			padding-bottom: 50px;
+			font-size: 62px;
+		}
+		nav{
+			height: 50px;
+			background-color:#630661;
+		}
+		main{
+			height: auto;
+			background-color:#D3C3F5;
+			padding-top: 20px;
+  			padding-bottom: 20px;
+		}
+		footer{
+			height: 80px;
+			background-color:#220D50;
+		}
+		header, nav, main, footer {
+  			margin: 0 auto;
+ 		 	width: 1200px;
+		}
+		main section{
+			width: 900px;
+			height: auto;
+			background-color:#DAA7EC;
+			margin: auto;
+			margin-bottom: 20px;
+			padding: 20px;
+		}
+		h2{
+			padding: 10px;
+			color: #E7576E;
+		}
+		footer h6{
+			height: 40px;
+			padding-top: 20px;
+			padding-bottom: 20px;
+			margin: 0px auto;
+			color:white;
+			text-align: center;
+			font-size: 20px;
+		}
+		main section ol, main section ul{
+			padding: 20px;
+		}
+		.box_u{
+			background-color: #A5D0FF;
+			color: #000000;
+		}
+.box_u #lista_dos li {
+}
+		.box_a{
+			background-color: #B972FF;
+			color: #F8E0E1;
+		}
+.box_u #sublista_1 li {
+    list-style-image: url(estrella.png);
+}
+		#navegacion{
+		}
+		#navegacion li{
+    		height: 10px;
+    		display: inline-block;
+    		margin-left: 20px;
+    		padding: 20px;
+    		margin-right: 20px;
+    		color: #370B12;
+    		font-size: 18px;
+    		vertical-align: middle;
+    		background-color: #B053AE;
+		}
+		#navegacion li a:link{
+    		color: #F7ECDD;
+    		font-size: 18px;
+    		text-decoration: none;
+		}
+		#navegacion li a:hover {
+    		color: #E9B0C9;
+    		text-decoration: underline;
+    		width: 100px;
+    		height: 30px;
+		}
+		#navegacion li a {
+    		border-radius: 10px;
+    		border-color: #2A8A4A;
+		}
+	</style>
+</head>
+
+	<body>
+		<header>
+			<h1>FORMATOS DE TEXTO</h1>
+		</header>
+		<nav>
+			<ul id="navegacion">
+				<li><a href="formatos_texto.html">Formatos de texto</a></li>
+				<li><a href="listas.html">Listas</a></li>
+				<li><a href="tablas.html">Tablas</a></li>
+				<li><a href="enlaces.html">Enlaces</a></li>
+				<li><a href="imagenes.html">Imagenes</a></li>
+				<li><a href="video.html">Video</a></li>
+				<li><a href="audio.html">Audio</a></li>
+				<li><a href="formularios.html">Formularios</a></li>
+  			</ul>
+		</nav>
+		<main>
+			<section>
+				<h2>Titulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultrices feugiat arcu sit amet condimentum. Aliquam erat volutpat. Nulla efficitur dapibus molestie. Vestibulum efficitur velit nec metus eleifend sollicitudin. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. <b>Sed in libero eu lacus luctus maximus. Sed rutrum tincidunt justo, et malesuada felis tempus et. Proin auctor nibh eget nulla sodales aliquam.</b> Mauris id nisl eu enim pharetra iaculis. Curabitur hendrerit sit amet orci ut lobortis. Maecenas a urna ut orci ullamcorper auctor. Cras velit magna, maximus eget imperdiet ut, vestibulum sed purus. Ut tincidunt ornare tellus id.</p>
+				<h6>&nbsp;</h6>
+			</section>
+			<section class="box_u">
+				<h2>Titulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur et turpis quis urna vehicula sodales pulvinar eget purus. Aliquam rutrum lacus sit amet quam placerat finibus. <i>Sed id libero at ex condimentum tempor. Phasellus viverra, justo sit amet suscipit porttitor, sapien nunc sodales nulla, at vestibulum turpis diam placerat sem.</i></p>
+				<ul class="box_u" id="lista_dos">
+					<li>Elementos de lista</li>
+					<li>Elementos de lista
+						<ul class="box_u" id="sublista_1">
+							<li>Sub elemento de lista</li>
+							<li>Sub elemento de lista</li>
+							<li>Sub elemento de lista</li>
+						</ul>
+					</li>
+					<li>Elementos de lista</li>
+					<li>Elementos de lista</li>
+					<li>Elementos de lista</li>
+				</ul>
+			</section>
+			<section>
+		 		<h2>Titulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras non mauris porta magna dapibus auctor ut ullamcorper lectus. Morbi pharetra tempus justo, ac congue magna. <del>Suspendisse mauris nunc, tincidunt vitae hendrerit vel, convallis in lectus. Fusce sit amet est eget mi volutpat imperdiet in nec turpis.</del> Curabitur quis sem egestas, tincidunt ante vitae, sodales justo. Morbi a nulla eu nisl consequat scelerisque. Maecenas sit amet erat sem. Donec at pellentesque.</p>
+			</section>
+			<section>
+		  		<h2>Titulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+		    	<mark>Integer malesuada quam eu dolor tincidunt, sed vehicula velit aliquet. Phasellus pharetra, mi id aliquet tempus, massa mauris sollicitudin purus, sed elementum neque risus non dolor. Vivamus cursus tincidunt nisi vitae sodales.</mark></p>
+			</section>
+			<section class="box_a">
+		  		<h2>Titulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada quam eu dolor tincidunt, sed vehicula velit aliquet. H<sub>2</sub>O .Phasellus pharetra, mi id aliquet tempus, massa mauris sollicitudin purus, sed elementum neque risus non dolor. Vivamus cursus tincidunt nisi vitae sodales.</p>
+			</section>
+			<section>
+		  		<h2>Titulo</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer malesuada quam eu dolor tincidunt, sed vehicula velit aliquet. h<sup>2</sup>=c<sup>2</sup>+c<sup>2</sup>. Phasellus pharetra, mi id aliquet tempus, massa mauris sollicitudin purus, sed elementum neque risus non dolor. Vivamus cursus tincidunt nisi vitae sodales.</p>
+			</section>
+	</main>
+		<footer>
+		  <h6>Elaborado por Elizabeth Jiménez Mendoza</h6>
+		</footer>
+	</body>
+</html>

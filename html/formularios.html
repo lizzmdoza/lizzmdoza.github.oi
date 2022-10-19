@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Documento sin título</title>
+<link href="../css/style_page.css" rel="stylesheet" type="text/css">
+<style type="text/css">
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+header h1{
+  height: 200px;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  font-size: 72px;
+}
+footer h6{
+  height: 40px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  text-align: center;
+}
+#navegacion{
+}
+#navegacion li{
+    height: 10px;
+    display: inline-block;
+    margin-left: 20px;
+    padding: 20px;
+    margin-right: 20px;
+    color: #01212F;
+    font-size: 18px;
+    vertical-align: middle;
+    background-color: #F8CDE0;
+    border-radius: 15px;
+}
+	#navegacion li a:link{
+    color: #A74E4C;
+    font-size: 18px;
+    text-decoration: none;
+	}
+#navegacion li a:hover {
+    color: #A74E4C;
+    text-decoration: underline;
+    width: 100px;
+    height: 30px;
+}
+#navegacion li a {
+    border-radius: 10px;
+    border-color: #2A8A4A;
+}
+</style>
+</head>
+
+<body>
+<header>
+  <h1>FORMULARIO EN HTML</h1>
+&nbsp;</header>
+
+<nav>
+	<ul id="navegacion">
+		<li><a href="formatos_texto.html">Formatos de texto</a></li>
+		<li><a href="listas.html">Listas</a></li>
+		<li><a href="tablas.html">Tablas</a></li>
+		<li><a href="enlaces.html">Enlaces</a></li>
+		<li><a href="imagenes.html">Imagenes</a></li>
+		<li><a href="video.html">Video</a></li>
+		<li><a href="audio.html">Audio</a></li>
+		<li><a href="formularios.html">Formularios</a></li>
+  	</ul>
+</nav>
+<main>
+  <section>
+    <h2>Formulario 1</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sed enim nemo doloremque non ab incidunt! In, fugit nulla enim vero. Error ab sunt illum molestias ex eaque vitae, iure?</p>
+    <form id="form1" name="form1" method="get">
+      <label for="nombre">Nombre:</label>
+      <input type="text" name="nombre" id="nombre">
+		<br><br>
+      <label for="apellido">Apellido:</label>
+      <input type="text" name="apellido" id="apellido">
+		<br><br>
+      <input type="submit" name="boton1" id="boton1" value="Enviar">
+      &nbsp;
+    </form>
+  </section>
+  <section>
+    <h2>Formulario con Radiobutton</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis sed enim nemo doloremque non ab incidunt! In, fugit nulla enim vero. Error ab sunt illum molestias ex eaque vitae, iure?</p>
+    <form action="procesamiento.html" method="get" name="form2" id="form2">
+      Elige tu genero:<br>
+      <table width="200" class="celda_centrada tabla_centrada">
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="fem" id="Genero_0">
+            Femenino</label></td>
+        </tr>
+        <tr>
+          <td><label>
+            <input type="radio" name="Genero" value="masc" id="Genero_1">
+            Masculino</label></td>
+        </tr>
+      </table>
+      <label for="país">¿De qué país nos visitas?:</label>
+      <select name="país" id="país">
+        <option value="mx">México</option>
+        <option value="esp">España</option>
+        <option value="ar">Argentina</option>
+        <option value="it">Italia</option>
+        <option value="us">Estados Unidos</option>
+      </select>
+      <p>
+        <label>¿Dónde residiras durante tu estancia en el país?</label>
+		  <br>
+        <label>
+          <input type="checkbox" name="Residencia_temporal" value="domicilio_particular" id="Residencia_temporal_0">
+          Casa de un amigo</label>
+        <br>
+        <label>
+          <input type="checkbox" name="Residencia_temporal" value="hotel" id="Residencia_temporal_1">
+          Hotel</label>
+        <br>
+        <label>
+          <input type="checkbox" name="Residencia_temporal" value="airbnb" id="Residencia_temporal_2">
+          Airbnb</label>
+        <br>
+      </p>
+      &nbsp;
+	<input type="submit" name="boton2" id="boton2" value="Enviar">
+    </form>
+    
+	 
+  </section>
+  <section>
+    <h2>Formulario de Contacto</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. In deserunt nam nemo, consequuntur rem minus ullam quibusdam optio quos, illum veritatis perspiciatis odio repudiandae voluptate quas culpa mollitia iusto asperiores.</p>
+    <form action="procesamiento.html" method="get" name="form3" id="form3">
+      <label for="email">Email:</label>
+      <input type="email" name="email" id="email">
+	  <br><br>
+      <label for="textarea">Comentario:</label>
+      <textarea name="textarea" id="textarea"></textarea>
+      <input name="submit" type="submit" class="boton_centrar" value="Enviar">
+      &nbsp;
+    </form>
+  </section>
+</main>
+<footer>
+  <h6>Elaborado por Elizabeth Jimenez Mendoza</h6>
+&nbsp;</footer>
+</body>
+</html>
